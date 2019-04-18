@@ -1,0 +1,23 @@
+Automatul:
+Stari:0 1 2 3 11 4 5 6 7 10 12 13 8 9 
+Simboluri:a b c d e 
+Stare initiala:0
+Stari finale:9 
+Tranzitii:
+0 1 a
+1 13 lambda
+2 3 b
+3 11 lambda
+11 2 lambda
+11 12 lambda
+4 5 c
+5 12 lambda
+6 7 d
+7 12 lambda
+10 4 lambda
+10 6 lambda
+12 10 lambda
+12 13 lambda
+13 8 lambda
+13 11 lambda
+8 9 e
